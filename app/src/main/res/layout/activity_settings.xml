@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Kessel-Parameter -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kessel-Parameter"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_marginBottom="8dp"/>
+
+        <EditText
+            android:id="@+id/wheelDiameter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Kessel-Durchmesser (mm)"
+            android:inputType="numberDecimal"/>
+
+        <EditText
+            android:id="@+id/ballDiameter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ball-Durchmesser (mm)"
+            android:inputType="numberDecimal"/>
+
+        <EditText
+            android:id="@+id/numberSpacing"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Abstand zwischen Zahlen (mm)"
+            android:inputType="numberDecimal"/>
+
+        <!-- Tracking-Parameter -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tracking-Parameter"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"/>
+
+        <EditText
+            android:id="@+id/minTrackingFrames"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Minimale Tracking-Frames"
+            android:inputType="number"/>
+
+        <EditText
+            android:id="@+id/predictionWindow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Vorhersage-Fenster (Frames)"
+            android:inputType="number"/>
+    </LinearLayout>
+</ScrollView> 

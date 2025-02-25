@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Background colors for dark theme -->
+    <color name="background_dark">#121212</color>
+    <color name="surface_dark">#1E1E1E</color>
+    
+    <!-- Semantic colors for dark theme -->
+    <color name="error_dark">#CF6679</color>
+    
+    <!-- Chart colors for dark theme -->
+    <color name="chart_line_dark">#64B5F6</color>
+    <color name="chart_bar_dark">#81C784</color>
+    <color name="chart_grid_dark">#424242</color>
+</resources> 

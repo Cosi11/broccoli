@@ -1,0 +1,95 @@
+# Gradle files
+.gradle/
+build/
+gradle-app.setting
+
+# Local configuration file
+local.properties
+
+# IDE files
+*.iml
+.idea/
+.idea/caches/
+.idea/libraries/
+.idea/modules.xml
+.idea/workspace.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+
+# Android Studio generated files
+captures/
+.externalNativeBuild/
+.cxx/
+*.apk
+*.aab
+*.ap_
+*.dex
+
+# Log Files
+*.log
+
+# OS specific files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Release/Production files
+/app/release
+/app/debug
+/app/production
+
+# Generated files
+bin/
+gen/
+out/
+
+# Version control
+vcs.xml
+
+# Android Profiling
+*.hprof
+
+# Navigation safe args generated files
+**/build/generated/source/navigation-args/
+
+# Data Binding
+**/build/generated/data_binding_base_class_source_out/
+
+# Room Database generated files
+**/build/generated/ap_generated_sources/
+
+# KSP generated files
+**/build/generated/ksp/
+
+# Kotlin incremental compilation
+**/build/tmp/
+
+# Android Resource caches
+**/build/intermediates/
+
+# Ignoriere alle OpenCV-Dateien standardmäßig
+/opencv/**
+/opencv-wrapper/**
+
+# Erlaube nur spezifische eigene Implementierungen
+!/opencv-wrapper/src/main/java/com/roulette/tracker/**
+!/opencv-wrapper/build.gradle.kts
+
+# Minimale OpenCV-Konfigurationsdateien
+!/opencv/build.gradle.kts
+!/opencv/src/main/aidl/org/opencv/engine/OpenCVEngineInterface.aidl
+!/opencv/src/main/AndroidManifest.xml
+!/opencv/src/main/cpp/CMakeLists.txt
+
+# CMake temporäre Dateien
+**/CMakeFiles/
+**/CMakeCache.txt
+**/.cmake/
+**/compile_commands.json
+
+# Generierte AIDL-Dateien
+**/generated/aidl_source_output_dir/
